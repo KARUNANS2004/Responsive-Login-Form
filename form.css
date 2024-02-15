@@ -1,0 +1,114 @@
+:root{
+    --green:rgb(26, 188, 156);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--green);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.container{
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    border: none;
+    margin: auto;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 5px 0px black;
+    border-radius:15px;
+}
+.container .heading{
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    height: 80px;
+    background-color: #138770;
+}
+.container .heading .title{
+    margin-top: 0;
+    padding-top: 20px;   
+    font-size: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user{
+    background-color: #138770;
+    float: left;
+    height: 50px;
+}
+.email input{
+    border: 1px solid lightgrey;
+    height: 50px;
+    width: 82%;
+    outline: none;
+}
+.email{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.email input:focus{
+    border-color: #16a085;
+    box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+
+.password{
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.lock{
+    background-color: #138770;
+    margin: 0;
+    height: 50px;
+    padding: 0;
+    float: left;
+}
+
+#pass{
+    outline: none;
+    border:1px solid lightgrey;
+    margin: 0;
+    padding: 10px;
+    height:50px;
+    width: 82%;
+
+}
+
+#pass:focus{
+    border-color: #16a085;
+    box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+
+.forgot{
+    margin-left: 20px;
+    color: #16a085;
+    font-size: 19px;
+}
+
+.login{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+    margin-top: 20px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: var(--green);
+    border: none;
+}
+.sentence{
+    text-align: center;
+    font-size: 16px;
+}
+.signup{
+    color: var(--green);
+}
